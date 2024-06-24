@@ -1,17 +1,9 @@
-import { FaLocationArrow } from "react-icons/fa6";
-
 import { socialMedia } from "@/data";
-import MagicButton from "./ui/MagicButton";
 
 const Footer = () => {
   return (
     <footer className="w-full pt-36 mt-20 pb-10" id="contact">
       <div className="w-full absolute left-0 -bottom-72 min-h-96">
-        <img
-          src="/footer-grid.svg"
-          alt="grid"
-          className="w-full h-full opacity-20 "
-        />
       </div>
 
       <div className="flex flex-col mx-5 lg:mx-0 items-center">
@@ -22,13 +14,10 @@ const Footer = () => {
           Reach out to me today and let&apos;s discuss how I can help you
           achieve your goals.
         </p>
-        <a href="mailto:contact@jsmastery.pro">
-          <MagicButton
-            title="Let's get in touch"
-            icon={<FaLocationArrow />}
-            position="right"
-          />
-        </a>
+
+        <button className="mt-8 px-6 py-2 border border-white text-white rounded-md hover:bg-white hover:text-black transition duration-300 ">
+          <a href="mailto:imartin.desarrollo@gmail.com">Contact with me!</a>
+        </button>
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-center items-center">
         <div className="flex items-center md:gap-3 gap-6">
@@ -39,9 +28,9 @@ const Footer = () => {
             >
               <a
                 href={info.link}
-                target= "_blank"
-                rel= "noopener noreferrer"
-                download= {info.id === 2 ? "IvanLM_CV.pdf" : undefined}
+                target="_blank"
+                rel="noopener noreferrer"
+                download={info.id === 2 ? "IvanLM_CV.pdf" : undefined}
               >
                 <img src={info.img} alt="icons" width={20} height={20} />
               </a>
