@@ -20,7 +20,7 @@ export function FrontPage() {
             </h1>
             
             <div className="bottom-4 text-center w-full pt-60 z-20">
-                <p className="mb-2 text-white">Desliza hacia abajo</p>
+                <p className="mb-2 text-white">Scroll Down </p>
                 <svg className="w-6 h-6 mx-auto animate-bounce text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
                 </svg>
