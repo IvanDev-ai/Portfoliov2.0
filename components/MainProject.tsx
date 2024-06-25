@@ -34,15 +34,16 @@ const MainProject = () => {
                 Github: <a className="text-black-400" href="https://github.com/IvanDev-ai/PsychoGPT_ia"> PsychoGPT</a>
               </p>
               <p className="pb-2 text-black-800">
-                Para el desarrollo de este proyecto, se implementó la técnica de <span className="text-black-400">fine-tuning</span> utilizando el modelo <span className="text-black-400">GPT-2</span> de HuggingFace con <span className="text-black-400">1.5 millones</span> de parámetros.
+                For the development of this project, the <span className="text-black-400">fine-tuning</span> technique was implemented using the <span className="text-black-400">GPT-2</span> model from HuggingFace with <span className="text-black-400">1.5 million</span> parameters.
               </p>
               <p className="pb-2 text-black-800">
-                La base de datos utilizada para entrenar el modelo constó de <span className="text-black-400">10,000 conversaciones</span> públicas entre psicólogos y pacientes.
+                The database used to train the model consisted of <span className="text-black-400">10,000 public conversations</span> between psychologists and patients.
               </p>
               <p className="pb-2 text-black-800">
-                Además dispone de capacidad para <span className="text-black-400">traducir mensajes</span> a cualquier idioma. Esto se logró gracias al uso de bibliotecas de Python específicas.
+                Additionally, it has the capability to <span className="text-black-400">translate messages</span> to any language. This was achieved thanks to the use of specific Python libraries.
               </p>
             </div>
+
           </>
         }
       >

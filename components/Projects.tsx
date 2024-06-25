@@ -3,6 +3,7 @@ import React from "react";
 import { StickyScroll } from "./ui/StickyScroll";
 import Image from "next/image";
 import TagGame from "@/public/taggame.gif";
+import AppleImg from "@/public/AppleImg.png";
 import BrainTumorImage from "@/public/braintumorcnn.png";
 
 const content = [
@@ -11,7 +12,7 @@ const content = [
     description: `
     <p className="pb-5 text-black-800">Live Demo: <a className="text-black-400" href="https://ai-escapegame.streamlit.app/">Demo</a></p>
     <p className="pb-12 text-black-800">Github: <a className="text-black-400" href="https://github.com/IvanDev-ai/AI-vs-AI---Tag-Game"> Tag-Game</a></p>
-    <p className="text-black-800"><span className='text-black-400'>2 redes neuronales</span>, un <span className='text-black-400'>cazador</span> que se mueve en diagonal, y una <span className='text-black-400'>presa</span> que no se mueve en diagonal pero avanza dos celdas cada dos turnos. Ambos agentes son entrenados mediante <span className='text-black-400'>aprendizaje por refuerzo</span>.</p>    
+    <p className="text-black-800"><span className='text-black-400'>2 neural networks</span>, a <span className='text-black-400'>hunter</span> that moves diagonally, and a <span className='text-black-400'>prey</span> that doesn't move diagonally but advances two cells every two turns. Both agents are trained using <span className='text-black-400'>reinforcement learning</span>.</p>    
     `,
     content: (
       <div className="h-full w-full flex items-center justify-center text-white">
@@ -30,7 +31,7 @@ const content = [
     description: `
     <p className="pb-5 text-black-800">Live Demo: <a className="text-black-400" href="https://braintumorcnn.streamlit.app/">Demo</a></p>
     <p className="pb-12 text-black-800">Github: <a className="text-black-400" href="https://github.com/IvanDev-ai/BrainTumorCNN"> BrainTumorCNN</a></p>
-    <p className="text-black-800">Se ha desarrollado una <span className='text-black-400'>red neuronal convolucional</span> (CNN) con el propósito de detectar y clasificar distintos tipos de <span className='text-black-400'>tumores cerebrales</span>, como glioma, meningioma y pituitaria. A partir de imágenes de <span className='text-black-400'>resonancia magnética</span> (MRI).</p>    
+    <p className="text-black-800">A <span className='text-black-400'>convolutional neural network</span> (CNN) has been developed to detect and classify different types of <span className='text-black-400'>brain tumors</span>, such as glioma, meningioma, and pituitary. Using <span className='text-black-400'>magnetic resonance imaging</span> (MRI) images.</p>    
     `,
     content: (
       <div className="h-full w-full flex items-center justify-center text-white">
@@ -45,25 +46,26 @@ const content = [
     ),
   },
   {
-    title: "AI vs AI tag Game",
+    title: "Apple's Iphone 15 Pro Clone",
     description: `
-    <p className="pb-5 text-black-800">Live Demo: <a className="text-black-400" href="https://psychogpt.streamlit.app/">Demo</a></p>
-    <p className="pb-12 text-black-800">Github: <a className="text-black-400" href="https://github.com/IvanDev-ai/PsychoGPT_ia"> PsychoGPT</a></p>
-    <p className="text-black-800"><span className='text-black-400'>2 redes neuronales</span>, un <span className='text-black-400'>cazador</span> que se mueve en diagonal, y una <span className='text-black-400'>presa</span> que no se mueve en diagonal pero avanza dos celdas cada dos turnos. Ambos agentes son entrenados mediante <span className='text-black-400'>aprendizaje por refuerzo</span>.</p>    
+    <p className="pb-5 text-black-800">Live Demo: <a className="text-black-400" href="">Under Contruction</a></p>
+    <p className="pb-12 text-black-800">Github: <a className="text-black-400" href="https://github.com/IvanDev-ai/Courses/tree/main/Course3%20-%20JS/AppleWebsite"> PsychoGPT</a></p>
+    <p className="text-black-800">A <span className='text-black-400'>clone</span> of the <span className='text-black-400'>iPhone 15 Pro</span> website from <span className='text-black-400'>Apple</span> using <span className='text-black-400'>Three.js</span> and <span className='text-black-400'>GSAP</span>.</p>
     `,
     content: (
       <div className="h-full w-full flex items-center justify-center text-white">
         <Image
-          src={TagGame}
+          src={AppleImg}
           width={400}
           height={400}
           className="h-full w-full object-cover"
-          alt="Tag Game"
+          alt="Apple Clone"
         />
       </div>
     ),
   }
 ];
+
 
 const Projects = () => {
   return (
