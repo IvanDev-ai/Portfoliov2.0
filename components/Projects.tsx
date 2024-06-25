@@ -46,10 +46,10 @@ const content = [
     ),
   },
   {
-    title: "Apple's Iphone 15 Pro Clone",
+    title: "Apple's Clone",
     description: `
     <p className="pb-5 text-black-800">Live Demo: <a className="text-black-400" href="">Under Contruction</a></p>
-    <p className="pb-12 text-black-800">Github: <a className="text-black-400" href="https://github.com/IvanDev-ai/Courses/tree/main/Course3%20-%20JS/AppleWebsite"> PsychoGPT</a></p>
+    <p className="pb-12 text-black-800">Github: <a className="text-black-400" href="https://github.com/IvanDev-ai/Courses/tree/main/Course3%20-%20JS/AppleWebsite"> Apple's Clone</a></p>
     <p className="text-black-800">A <span className='text-black-400'>clone</span> of the <span className='text-black-400'>iPhone 15 Pro</span> website from <span className='text-black-400'>Apple</span> using <span className='text-black-400'>Three.js</span> and <span className='text-black-400'>GSAP</span>.</p>
     `,
     content: (
